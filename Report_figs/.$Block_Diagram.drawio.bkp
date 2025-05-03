@@ -1,0 +1,78 @@
+<mxfile host="Electron" modified="2025-05-03T06:06:33.238Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.2 Chrome/114.0.5735.289 Electron/25.9.4 Safari/537.36" etag="CIyMK1OW7R_2QrRSQEXn" version="22.1.2" type="device">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="683" dy="432" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="wlHIV6wLXMOUE_OSpk_u-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="wlHIV6wLXMOUE_OSpk_u-0" target="wlHIV6wLXMOUE_OSpk_u-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wlHIV6wLXMOUE_OSpk_u-0" value="&lt;b&gt;Load input data&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=14;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="40" y="390" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="wlHIV6wLXMOUE_OSpk_u-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="wlHIV6wLXMOUE_OSpk_u-1" target="wlHIV6wLXMOUE_OSpk_u-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wlHIV6wLXMOUE_OSpk_u-1" value="&lt;b&gt;Preprocessing&lt;/b&gt;&lt;br&gt;• Data augmentation&lt;br&gt;• Normalization (Z-score)&lt;br&gt;•Division into training and validation sets" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=14;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="200" y="390" width="170" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="wlHIV6wLXMOUE_OSpk_u-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="wlHIV6wLXMOUE_OSpk_u-3" target="wlHIV6wLXMOUE_OSpk_u-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wlHIV6wLXMOUE_OSpk_u-3" value="&lt;b&gt;CNN model definition&lt;/b&gt;&lt;br&gt;• Hyperparameter tuning&lt;br&gt;• Ranges for tunable parameters&lt;br&gt;• Option for tuner to add 2nd and 3rd convolutional layer" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=14;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="410" y="390" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="wlHIV6wLXMOUE_OSpk_u-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="wlHIV6wLXMOUE_OSpk_u-5" target="wlHIV6wLXMOUE_OSpk_u-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wlHIV6wLXMOUE_OSpk_u-5" value="&lt;b&gt;Run hyperparameter tuning&lt;/b&gt;&lt;br&gt;• Number of total runs is predefined (we used 10)&lt;br&gt;• Output: the best 4 models in terms of accuracy" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=14;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="640" y="390" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="wlHIV6wLXMOUE_OSpk_u-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="wlHIV6wLXMOUE_OSpk_u-6" target="wlHIV6wLXMOUE_OSpk_u-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wlHIV6wLXMOUE_OSpk_u-6" value="&lt;b&gt;Select the best model&lt;/b&gt;&lt;br&gt;• From the best 4 models, the simpliest one is picked (the smallest amount of trainable parameters)" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=14;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="870" y="390" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="wlHIV6wLXMOUE_OSpk_u-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="wlHIV6wLXMOUE_OSpk_u-7" target="wlHIV6wLXMOUE_OSpk_u-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wlHIV6wLXMOUE_OSpk_u-7" value="&lt;b&gt;Final model training&lt;/b&gt;&lt;br&gt;• Training the simpliest model&lt;br&gt;• EarlyStopping and ReduceLROnPlateau callbacks are used&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=14;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="870" y="550" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="wlHIV6wLXMOUE_OSpk_u-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="wlHIV6wLXMOUE_OSpk_u-11" target="wlHIV6wLXMOUE_OSpk_u-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wlHIV6wLXMOUE_OSpk_u-11" value="&lt;b&gt;Graphical evaluation&lt;/b&gt;&lt;br&gt;• Confusion matrix&lt;br&gt;• Training history in terms of accuracy and loss functions" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=14;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="640" y="550" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="wlHIV6wLXMOUE_OSpk_u-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="wlHIV6wLXMOUE_OSpk_u-12" target="wlHIV6wLXMOUE_OSpk_u-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wlHIV6wLXMOUE_OSpk_u-12" value="&lt;b&gt;Test set predictions&lt;/b&gt;&lt;br&gt;• Loading data, applying the same normalization parameters as for train set&lt;br&gt;• Predicting test set labels" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=14;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="410" y="550" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="wlHIV6wLXMOUE_OSpk_u-13" value="&lt;b&gt;Kaggle file exporting&lt;/b&gt;&lt;br&gt;• The predicted labels are exported into the Kaggle submission file in a correct format and style" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=14;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="200" y="550" width="170" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="wlHIV6wLXMOUE_OSpk_u-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#990000;strokeColor=#990000;dashed=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="wlHIV6wLXMOUE_OSpk_u-17" target="wlHIV6wLXMOUE_OSpk_u-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wlHIV6wLXMOUE_OSpk_u-17" value="&lt;b&gt;CNN structure&lt;/b&gt;&lt;br&gt;Input layer → &lt;br&gt;Convolutional layers (up to 3) with MaxPooling2D&amp;nbsp;→ Flatten&amp;nbsp;→ 2 Dense layers&amp;nbsp;→ Output layer" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=14;fontColor=#990000;strokeColor=#990000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="410" y="230" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="wlHIV6wLXMOUE_OSpk_u-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;strokeColor=#990000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="wlHIV6wLXMOUE_OSpk_u-18" target="wlHIV6wLXMOUE_OSpk_u-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="735" y="370" />
+              <mxPoint x="735" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wlHIV6wLXMOUE_OSpk_u-18" value="&lt;b&gt;Used callbacks:&lt;/b&gt;&lt;br&gt;&lt;u style=&quot;&quot;&gt;EarlyStopping&lt;/u&gt; (custom) - stops the training is accuracy doesn&#39;t improve&lt;br&gt;&lt;u&gt;ReduceLROnPlateau&lt;/u&gt; - dynamic learning rate adjustment" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=14;fontColor=#990000;strokeColor=#990000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="640" y="230" width="190" height="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
